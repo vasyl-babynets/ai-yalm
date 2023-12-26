@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: container1
-    image: nginx
+    image: my-image1
   - name: container2
-    image: busybox
+    image: my-image2
     command: ["sleep", "3600"]
