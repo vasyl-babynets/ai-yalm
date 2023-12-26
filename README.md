@@ -2,7 +2,7 @@
 
 | NAME | PROMPT | DESCRIPTION | EXAMPLE |
 |------|--------|-------------|---------|
-| Aplication | `kubectl ai "create pod for basic app"` | Basic manifest for application deployment | [app.yalm](yaml/app.yaml)|
+| Application | `kubectl ai "create pod for basic app"` | Basic manifest for application deployment | [app.yalm](yaml/app.yaml)|
 | Liveness probe | `kubectl ai "create application liveness probe"` | A Kubernetes manifest with a liveness probe which determines if an application within a Pod is running as expected | [app-livenessProbe.yalm](yaml/app-livenessProbe.yalm)|
 | Readiness probe | `kubectl ai "create application readiness probe"` | A Kubernetes manifest with a readiness probe which determines when an application inside a Pod is ready to serve traffic | [app-readinessProbe.yalm](yaml/app-readinessProbe.yalm) |
 | Volume mounts | `kubectl ai "add volume mounts"` | A Kubernetes manifest with volume mounts allows you to specify the volumes and their associated mount paths within containers running in a Pod. | [app-volumeMounts.yaml](yaml/app-volumeMounts.yaml) |
